@@ -7,9 +7,11 @@ function setup() {
     background('#e0bbe4');
     element = element.html("SUN & MOON");
     element.position(windowWidth/2-110, windowHeight/2-200);
+    
     button = createButton('Click Me');
     button.position(windowWidth/2-30, windowHeight/2);
     button.mousePressed(dayMode);
+    
     noStroke();
 }
 
@@ -23,6 +25,7 @@ function dayMode() {
     
     element = element.html("SUN");
     element.position(windowWidth/2-20, windowHeight/2-360);
+    
 }
 
 function drawMoon() {
