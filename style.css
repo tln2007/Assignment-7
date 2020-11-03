@@ -1,0 +1,18 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Fredoka One', cursive;
+  font-size: 30px;
+  color:white;
+}
+canvas {
+  display: block;
+}
+button {
+  //background-color: white;
+  padding: 20px 30px;
+  border: none;
+  color: black;  
+  font-size: 15px;
+}
